@@ -1,0 +1,1308 @@
+[17:28:09] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-e60e2063-b399)...
+[17:28:09] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[17:28:12] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
+[17:28:13] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[17:28:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.3.0-SNAPSHOT:e60e2063:b399
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:28:14] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[17:28:14] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.0.5 by lax1dude, ayunami2000
+[17:28:15] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.3.27 by NickUC
+[17:28:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[17:28:15] [Velocity Async Event Executor - #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[17:28:15] [Velocity Async Event Executor - #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[17:28:16] [Velocity Async Event Executor - #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[17:28:16] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[17:28:17] [Velocity Async Event Executor - #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[17:28:17] [Velocity Async Event Executor - #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[17:28:18] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/EaglerXVelocity/velocity/plugins/eaglerxvelocity/eagcert/$dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[17:28:18] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/EaglerXVelocity/velocity/plugins/eaglerxvelocity/eagcert/$dl.ba375b9add3c01ca11899be958188189a3885a59.cert
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [nlogin]: Successful plugin core start (took 0.89s)
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[17:28:20] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.3.27
+[17:28:21] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[17:28:24] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0%0]:25577
+[17:28:24] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (18s)!
+[17:28:24] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: Server icon is not a file: /workspaces/EaglerXVelocity/velocity/server-icon.png
+[17:28:28] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35724]: Connected via websocket
+[17:28:28] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35724]: Origin header is https://astraclientorg.github.io
+[17:28:29] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:35724) has connected
+[17:28:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has connected
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[17:28:29] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:28:37] [nLogin - Task Executor #0/INFO] [nlogin]: The user Yan has successfully logged in.
+[17:28:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has connected
+[17:28:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has disconnected
+[17:32:38] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37208]: Connected via websocket
+[17:32:38] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37208]: Origin header is https://astraclientorg.github.io
+[17:32:38] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:37208) has connected
+[17:32:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[17:32:42] [nLogin - Task Executor #0/INFO] [nlogin]: The user DARREN has successfully logged in.
+[17:32:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[17:32:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[17:34:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:37208) has disconnected
+[17:34:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[17:34:57] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34420]: Connected via websocket
+[17:34:57] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34420]: Origin header is https://astraclientorg.github.io
+[17:34:57] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] LMMS (/[0:0:0:0:0:0:0:1%0]:34420) has connected
+[17:34:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] LMMS -> lobby has connected
+[17:35:00] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] LMMS (/[0:0:0:0:0:0:0:1%0]:34420) has disconnected
+[17:35:00] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] LMMS -> lobby has disconnected
+[17:35:09] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47102]: Connected via websocket
+[17:35:09] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47102]: Origin header is https://astraclientorg.github.io
+[17:35:09] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] LMMS_ADMIN (/[0:0:0:0:0:0:0:1%0]:47102) has connected
+[17:35:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] LMMS_ADMIN -> lobby has connected
+[17:35:16] [nLogin - Task Executor #0/INFO] [nlogin]: The user LMMS_ADMIN has successfully logged in.
+[17:35:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] LMMS_ADMIN -> survival has connected
+[17:35:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] LMMS_ADMIN -> lobby has disconnected
+[17:38:34] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] LMMS_ADMIN (/[0:0:0:0:0:0:0:1%0]:47102) has disconnected
+[17:38:34] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] LMMS_ADMIN -> survival has disconnected
+[17:48:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:35724) has disconnected: An internal error occurred in your connection.
+[17:48:30] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:35724): read timed out
+[17:48:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has disconnected
+[18:01:30] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40366]: Connected via websocket
+[18:01:30] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40366]: Origin header is https://astraclientorg.github.io
+[18:01:31] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:40366) has connected
+[18:01:31] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[18:01:33] [nLogin - Task Executor #0/INFO] [nlogin]: The user Grady has successfully logged in.
+[18:01:33] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[18:01:33] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[18:08:12] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:49706]: Connected via websocket
+[18:08:12] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:49706]: Origin header is https://astraclientorg.github.io
+[18:08:12] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:49706) has connected
+[18:08:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has connected
+[18:08:26] [nLogin - Task Executor #0/INFO] [nlogin]: The user Yan has successfully logged in.
+[18:08:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has connected
+[18:08:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has disconnected
+[18:10:10] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:49706) has disconnected: An internal error occurred in your connection.
+[18:10:10] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:49706): read timed out
+[18:10:10] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has disconnected
+[18:11:11] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40318]: Connected via websocket
+[18:11:11] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40318]: Origin header is https://astraclientorg.github.io
+[18:11:11] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:40318) has connected
+[18:11:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[18:11:17] [nLogin - Task Executor #0/INFO] [nlogin]: The user DARREN has successfully logged in.
+[18:11:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[18:11:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[18:11:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:40318) has disconnected
+[18:11:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[18:11:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43784]: Connected via websocket
+[18:11:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43784]: Origin header is https://astraclientorg.github.io
+[18:11:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:43784) has connected
+[18:11:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[18:11:38] [nLogin - Task Executor #0/INFO] [nlogin]: The user DARREN has successfully logged in.
+[18:11:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[18:11:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[18:11:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:43784) has disconnected
+[18:11:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[18:12:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:40366) has disconnected
+[18:12:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[18:16:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35614]: Connected via websocket
+[18:16:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35614]: Origin header is https://astraclientorg.github.io
+[18:16:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:35614) has connected
+[18:16:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[18:17:11] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39118]: Connected via websocket
+[18:17:11] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39118]: Origin header is https://astraclientorg.github.io
+[18:17:11] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] David_M (/[0:0:0:0:0:0:0:1%0]:39118) has connected
+[18:17:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] David_M -> lobby has connected
+[18:17:19] [nLogin - Task Executor #0/INFO] [nlogin]: The user David_M has successfully logged in.
+[18:17:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] David_M -> survival has connected
+[18:17:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] David_M -> lobby has disconnected
+[18:17:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:35614) has disconnected
+[18:17:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[18:17:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37068]: Connected via websocket
+[18:17:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37068]: Origin header is https://astraclientorg.github.io
+[18:17:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:37068) has connected
+[18:17:34] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[18:17:36] [nLogin - Task Executor #0/INFO] [nlogin]: The user Grady has successfully logged in.
+[18:17:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[18:17:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[18:17:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:37068) has disconnected
+[18:17:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[18:18:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56486]: Connected via websocket
+[18:18:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56486]: Origin header is https://astraclientorg.github.io
+[18:18:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:56486) has connected
+[18:18:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[18:18:57] [nLogin - Task Executor #0/INFO] [nlogin]: The user DARREN has successfully logged in.
+[18:18:57] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[18:18:57] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[18:19:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60058]: Connected via websocket
+[18:19:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60058]: Origin header is https://astraclientorg.github.io
+[18:19:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:60058) has connected
+[18:19:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[18:19:09] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60064]: Connected via websocket
+[18:19:09] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60064]: Origin header is https://astraclientorg.github.io
+[18:19:09] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:60064) has connected
+[18:19:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[18:19:09] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60066]: Connected via websocket
+[18:19:09] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60066]: Origin header is https://astraclientorg.github.io
+[18:19:12] [nLogin - Task Executor #0/INFO] [nlogin]: The user Grady has successfully logged in.
+[18:19:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[18:19:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[18:19:13] [nLogin - Task Executor #0/INFO] [nlogin]: The user Danny has successfully registered.
+[18:19:14] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[18:19:14] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[18:19:15] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60070]: Connected via websocket
+[18:19:15] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60070]: Origin header is https://astraclientorg.github.io
+[18:19:15] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:60070) has connected
+[18:19:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:19:25] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:19:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:19:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:19:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:60058) has disconnected
+[18:19:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[18:19:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43194]: Connected via websocket
+[18:19:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43194]: Origin header is https://astraclientorg.github.io
+[18:19:32] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43208]: Connected via websocket
+[18:19:32] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43208]: Origin header is https://astraclientorg.github.io
+[18:19:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:43194) has connected
+[18:19:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has connected
+[18:19:38] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60616]: Connected via websocket
+[18:19:38] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60616]: Origin header is https://astraclientorg.github.io
+[18:19:38] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:60616) has connected
+[18:19:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[18:19:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:60070) has disconnected
+[18:19:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:19:45] [nLogin - Task Executor #0/INFO] [nlogin]: The user Danny has successfully logged in.
+[18:19:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[18:19:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[18:19:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:43194) has disconnected: You entered the incorrect password.
+[18:19:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has disconnected
+[18:19:48] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45930]: Connected via websocket
+[18:19:48] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45930]: Origin header is https://astraclientorg.github.io
+[18:19:48] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:45930) has connected
+[18:19:48] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has connected
+[18:19:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45932]: Connected via websocket
+[18:19:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45932]: Origin header is https://astraclientorg.github.io
+[18:19:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:45932) has connected
+[18:19:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has connected
+[18:19:53] [nLogin - Task Executor #0/INFO] [nlogin]: The user Idan has successfully logged in.
+[18:19:53] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has connected
+[18:19:54] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has disconnected
+[18:19:58] [nLogin - Task Executor #0/INFO] [nlogin]: The user Yan has successfully logged in.
+[18:19:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has connected
+[18:19:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has disconnected
+[18:19:59] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45506]: Connected via websocket
+[18:19:59] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45506]: Origin header is https://astraclientorg.github.io
+[18:19:59] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:45506) has connected
+[18:19:59] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:20:04] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:20:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:20:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:20:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:60616) has disconnected
+[18:20:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[18:20:09] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38768]: Connected via websocket
+[18:20:09] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38768]: Origin header is https://astraclientorg.github.io
+[18:20:09] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:38768) has connected
+[18:20:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[18:20:13] [nLogin - Task Executor #0/INFO] [nlogin]: The user Danny has successfully logged in.
+[18:20:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[18:20:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[18:20:20] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:45506) has disconnected
+[18:20:20] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:20:22] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41948]: Connected via websocket
+[18:20:22] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41948]: Origin header is https://astraclientorg.github.io
+[18:20:22] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:41948) has connected
+[18:20:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:20:27] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:20:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:20:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:20:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:41948) has disconnected
+[18:20:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:20:48] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52562]: Connected via websocket
+[18:20:48] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52562]: Origin header is https://astraclientorg.github.io
+[18:20:49] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:52562) has connected
+[18:20:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:20:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:52562) has disconnected
+[18:20:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:21:17] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56702]: Connected via websocket
+[18:21:17] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56702]: Origin header is https://astraclientorg.github.io
+[18:21:18] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56702) has connected
+[18:21:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[18:21:21] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56718]: Connected via websocket
+[18:21:21] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56718]: Origin header is https://astraclientorg.github.io
+[18:21:21] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:56718) has connected
+[18:21:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:21:26] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:21:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:21:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:21:28] [nLogin - Task Executor #0/INFO] [nlogin]: The user Marko has successfully logged in.
+[18:21:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[18:21:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[18:21:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:56718) has disconnected
+[18:21:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:21:45] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40120]: Connected via websocket
+[18:21:45] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40120]: Origin header is https://astraclientorg.github.io
+[18:21:45] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:40120) has connected
+[18:21:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:21:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:38768) has disconnected
+[18:21:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[18:21:49] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:44488]: Connected via websocket
+[18:21:49] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:44488]: Origin header is https://astraclientorg.github.io
+[18:21:49] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:44488) has connected
+[18:21:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[18:21:50] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:21:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:21:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:21:53] [nLogin - Task Executor #0/INFO] [nlogin]: The user Danny has successfully logged in.
+[18:21:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[18:21:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[18:22:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:40120) has disconnected
+[18:22:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:22:13] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51484]: Connected via websocket
+[18:22:13] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51484]: Origin header is https://astraclientorg.github.io
+[18:22:13] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:51484) has connected
+[18:22:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:22:19] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:22:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:22:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:22:34] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:51484) has disconnected
+[18:22:34] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:22:41] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55556]: Connected via websocket
+[18:22:41] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55556]: Origin header is https://astraclientorg.github.io
+[18:22:41] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:55556) has connected
+[18:22:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:22:47] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:22:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:22:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:23:02] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:55556) has disconnected
+[18:23:02] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:23:10] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38644]: Connected via websocket
+[18:23:10] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38644]: Origin header is https://astraclientorg.github.io
+[18:23:10] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38644) has connected
+[18:23:10] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:23:17] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:23:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:23:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:23:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:44488) has disconnected
+[18:23:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[18:23:31] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38644) has disconnected
+[18:23:31] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:23:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:45932) has disconnected
+[18:23:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has disconnected
+[18:23:35] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:36702]: Connected via websocket
+[18:23:35] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:36702]: Origin header is https://astraclientorg.github.io
+[18:23:35] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:36702) has connected
+[18:23:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:23:42] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:23:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:23:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:23:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:36702) has disconnected
+[18:23:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:24:17] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:33256]: Connected via websocket
+[18:24:17] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:33256]: Origin header is https://astraclientorg.github.io
+[18:24:17] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:33256) has connected
+[18:24:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:24:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:60064) has disconnected: An internal error occurred in your connection.
+[18:24:18] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:60064): read timed out
+[18:24:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[18:24:22] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:24:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:24:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:24:25] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35912]: Connected via websocket
+[18:24:25] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35912]: Origin header is https://astraclientorg.github.io
+[18:24:25] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:35912) has connected
+[18:24:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[18:24:27] [nLogin - Task Executor #0/INFO] [nlogin]: The user Grady has successfully logged in.
+[18:24:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[18:24:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[18:24:38] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:33256) has disconnected
+[18:24:38] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:24:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:35912) has disconnected
+[18:24:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[18:24:43] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51256]: Connected via websocket
+[18:24:43] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51256]: Origin header is https://astraclientorg.github.io
+[18:24:43] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:51256) has connected
+[18:24:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:24:45] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51272]: Connected via websocket
+[18:24:45] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51272]: Origin header is https://astraclientorg.github.io
+[18:24:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:51256) has disconnected: You entered the incorrect password.
+[18:24:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:24:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59676]: Connected via websocket
+[18:24:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59676]: Origin header is https://astraclientorg.github.io
+[18:24:51] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:59676) has connected
+[18:24:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:24:52] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59692]: Connected via websocket
+[18:24:52] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59692]: Origin header is https://astraclientorg.github.io
+[18:24:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56702) has disconnected
+[18:24:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[18:24:56] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:24:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:24:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:25:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55114]: Connected via websocket
+[18:25:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55114]: Origin header is https://astraclientorg.github.io
+[18:25:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:55114) has connected
+[18:25:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[18:25:10] [nLogin - Task Executor #0/INFO] [nlogin]: The user Grady has successfully logged in.
+[18:25:10] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[18:25:10] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[18:25:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:59676) has disconnected
+[18:25:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:25:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37776]: Connected via websocket
+[18:25:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37776]: Origin header is https://astraclientorg.github.io
+[18:25:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:37776) has connected
+[18:25:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:25:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:55114) has disconnected
+[18:25:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[18:25:25] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:25:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:25:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:25:31] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57826]: Connected via websocket
+[18:25:31] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57826]: Origin header is https://astraclientorg.github.io
+[18:25:31] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:57826) has connected
+[18:25:31] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[18:25:33] [nLogin - Task Executor #0/INFO] [nlogin]: The user Grady has successfully logged in.
+[18:25:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[18:25:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[18:25:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:37776) has disconnected
+[18:25:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:25:47] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35410]: Connected via websocket
+[18:25:47] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35410]: Origin header is https://astraclientorg.github.io
+[18:25:47] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:35410) has connected
+[18:25:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:25:52] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:25:52] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:25:52] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:26:05] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46896]: Connected via websocket
+[18:26:05] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46896]: Origin header is https://astraclientorg.github.io
+[18:26:05] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:46896) has connected
+[18:26:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[18:26:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:35410) has disconnected
+[18:26:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:26:13] [nLogin - Task Executor #15/INFO] [nlogin]: The user Danny has successfully logged in.
+[18:26:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[18:26:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[18:26:20] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57188]: Connected via websocket
+[18:26:20] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57188]: Origin header is https://astraclientorg.github.io
+[18:26:20] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:57188) has connected
+[18:26:20] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:26:37] [nLogin - Task Executor #15/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:26:37] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:26:37] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:26:51] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:57188) has disconnected
+[18:26:51] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:26:55] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53794]: Connected via websocket
+[18:26:55] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53794]: Origin header is https://astraclientorg.github.io
+[18:26:55] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:53794) has connected
+[18:26:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:27:01] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:27:01] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:27:01] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:27:16] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:53794) has disconnected
+[18:27:16] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:27:35] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53552]: Connected via websocket
+[18:27:35] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53552]: Origin header is https://astraclientorg.github.io
+[18:27:35] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:53552) has connected
+[18:27:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:27:44] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:27:44] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:27:44] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:28:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:53552) has disconnected
+[18:28:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:28:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37918]: Connected via websocket
+[18:28:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37918]: Origin header is https://astraclientorg.github.io
+[18:28:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:37918) has connected
+[18:28:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:28:09] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:28:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:28:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:28:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:37918) has disconnected
+[18:28:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:28:28] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47640]: Connected via websocket
+[18:28:28] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47640]: Origin header is https://astraclientorg.github.io
+[18:28:28] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:47640) has connected
+[18:28:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:28:33] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:28:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:28:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:28:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:47640) has disconnected
+[18:28:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:28:56] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56976]: Connected via websocket
+[18:28:56] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56976]: Origin header is https://astraclientorg.github.io
+[18:28:56] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56974]: Connected via websocket
+[18:28:56] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56974]: Origin header is https://astraclientorg.github.io
+[18:28:56] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:56976) has connected
+[18:28:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:29:01] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:29:02] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:29:02] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:29:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56982]: Connected via websocket
+[18:29:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56982]: Origin header is https://astraclientorg.github.io
+[18:29:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56982) has connected
+[18:29:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[18:29:09] [nLogin - Task Executor #0/INFO] [nlogin]: The user Marko has successfully logged in.
+[18:29:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[18:29:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[18:29:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:56976) has disconnected
+[18:29:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:30:11] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51222]: Connected via websocket
+[18:30:11] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51222]: Origin header is https://astraclientorg.github.io
+[18:30:11] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:51222) has connected
+[18:30:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:30:17] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:30:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:30:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:30:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:51222) has disconnected
+[18:30:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:31:07] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:50474]: Connected via websocket
+[18:31:07] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:50474]: Origin header is https://astraclientorg.github.io
+[18:31:07] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:50474) has connected
+[18:31:07] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:31:11] [nLogin - Task Executor #0/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:31:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:31:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:31:28] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:50474) has disconnected
+[18:31:28] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:31:55] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:50260]: Connected via websocket
+[18:31:55] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:50260]: Origin header is https://astraclientorg.github.io
+[18:31:55] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:50260) has connected
+[18:31:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:32:00] [nLogin - Task Executor #16/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:32:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:32:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:32:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:50260) has disconnected
+[18:32:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:32:18] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39044]: Connected via websocket
+[18:32:18] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39044]: Origin header is https://astraclientorg.github.io
+[18:32:18] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:39044) has connected
+[18:32:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:32:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:39044) has disconnected
+[18:32:28] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:32:35] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48178]: Connected via websocket
+[18:32:35] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48178]: Origin header is https://astraclientorg.github.io
+[18:32:35] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:48178) has connected
+[18:32:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:32:40] [nLogin - Task Executor #16/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:32:40] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46708]: Connected via websocket
+[18:32:40] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46708]: Origin header is https://astraclientorg.github.io
+[18:32:40] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:46708) has connected
+[18:32:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has connected
+[18:32:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:32:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:32:47] [nLogin - Task Executor #16/INFO] [nlogin]: The user Stephane has successfully logged in.
+[18:32:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has connected
+[18:32:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has disconnected
+[18:32:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:48178) has disconnected
+[18:32:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:34:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40326]: Connected via websocket
+[18:34:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:40326]: Origin header is https://astraclientorg.github.io
+[18:34:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:40326) has connected
+[18:34:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has connected
+[18:34:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:45930) has disconnected
+[18:34:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has disconnected
+[18:34:26] [nLogin - Task Executor #16/INFO] [nlogin]: The user Yan has successfully logged in.
+[18:34:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has connected
+[18:34:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> lobby has disconnected
+[18:34:30] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58404]: Connected via websocket
+[18:34:30] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58404]: Origin header is https://astraclientorg.github.io
+[18:34:30] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:58404) has connected
+[18:34:30] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has connected
+[18:34:32] [nLogin - Task Executor #16/INFO] [nlogin]: The user Idan has successfully logged in.
+[18:34:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has connected
+[18:34:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has disconnected
+[18:38:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:46896) has disconnected
+[18:38:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[18:39:33] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:36890]: Connected via websocket
+[18:39:33] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:36890]: Origin header is https://astraclientorg.github.io
+[18:39:33] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:36890) has connected
+[18:39:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[18:39:37] [nLogin - Task Executor #16/INFO] [nlogin]: The user Danny has successfully logged in.
+[18:39:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[18:39:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[18:39:46] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52644]: Connected via websocket
+[18:39:46] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52644]: Origin header is https://astraclientorg.github.io
+[18:39:46] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:52644) has connected
+[18:39:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:39:53] [nLogin - Task Executor #16/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:39:54] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:39:54] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:39:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56982) has disconnected
+[18:39:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[18:39:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:36890) has disconnected
+[18:39:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[18:40:02] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58172]: Connected via websocket
+[18:40:02] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58172]: Origin header is https://astraclientorg.github.io
+[18:40:02] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:58172) has connected
+[18:40:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[18:40:05] [nLogin - Task Executor #16/INFO] [nlogin]: The user Danny has successfully logged in.
+[18:40:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[18:40:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[18:40:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:52644) has disconnected
+[18:40:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:40:48] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:42122]: Connected via websocket
+[18:40:48] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:42122]: Origin header is https://astraclientorg.github.io
+[18:40:48] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:42122) has connected
+[18:40:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:40:54] [nLogin - Task Executor #16/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:40:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:40:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[18:41:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53676]: Connected via websocket
+[18:41:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53676]: Origin header is https://astraclientorg.github.io
+[18:41:34] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:53676) has connected
+[18:41:34] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[18:41:39] [nLogin - Task Executor #16/INFO] [nlogin]: The user Marko has successfully logged in.
+[18:41:39] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[18:41:39] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[18:46:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:53676) has disconnected
+[18:46:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[18:46:20] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43246]: Connected via websocket
+[18:46:20] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43246]: Origin header is https://astraclientorg.github.io
+[18:46:21] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:43246) has connected
+[18:46:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[18:46:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:43246) has disconnected: You entered the incorrect password.
+[18:46:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[18:46:33] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39092]: Connected via websocket
+[18:46:33] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39092]: Origin header is https://astraclientorg.github.io
+[18:46:33] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:39092) has connected
+[18:46:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[18:46:38] [nLogin - Task Executor #16/INFO] [nlogin]: The user Marko has successfully logged in.
+[18:46:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[18:46:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[18:58:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:42122) has disconnected
+[18:58:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[18:58:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58464]: Connected via websocket
+[18:58:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58464]: Origin header is https://astraclientorg.github.io
+[18:58:04] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:58464) has connected
+[18:58:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[18:58:10] [nLogin - Task Executor #16/INFO] [nlogin]: The user Jamal has successfully logged in.
+[18:58:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[18:58:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[19:00:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:56486) has disconnected
+[19:00:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[19:00:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:58404) has disconnected
+[19:00:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has disconnected
+[19:00:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] David_M (/[0:0:0:0:0:0:0:1%0]:39118) has disconnected
+[19:00:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] David_M -> survival has disconnected
+[19:01:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:39092) has disconnected
+[19:01:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[19:01:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:58464) has disconnected
+[19:01:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[19:02:06] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34012]: Connected via websocket
+[19:02:06] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34012]: Origin header is https://astraclientorg.github.io
+[19:02:06] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:34012) has connected
+[19:02:06] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[19:02:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Yan (/[0:0:0:0:0:0:0:1%0]:40326) has disconnected
+[19:02:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Yan -> survival has disconnected
+[19:02:12] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34028]: Connected via websocket
+[19:02:12] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34028]: Origin header is https://astraclientorg.github.io
+[19:02:12] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:34028) has connected
+[19:02:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has connected
+[19:02:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:34012) has disconnected
+[19:02:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[19:02:14] [nLogin - Task Executor #16/INFO] [nlogin]: The user Idan has successfully logged in.
+[19:02:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has connected
+[19:02:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has disconnected
+[19:05:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:46708) has disconnected
+[19:05:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has disconnected
+[19:06:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:57826) has disconnected
+[19:06:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[19:09:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:34028) has disconnected
+[19:09:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has disconnected
+[19:12:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:58172) has disconnected
+[19:12:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[19:37:22] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:44052]: Connected via websocket
+[19:37:22] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:44052]: Origin header is https://astraclientorg.github.io
+[19:37:22] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:44052) has connected
+[19:37:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[19:37:24] [nLogin - Task Executor #16/INFO] [nlogin]: The user Grady has successfully logged in.
+[19:37:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[19:37:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[19:37:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:44052) has disconnected
+[19:37:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[19:37:43] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37510]: Connected via websocket
+[19:37:43] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37510]: Origin header is https://astraclientorg.github.io
+[19:37:44] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:37510) has connected
+[19:37:44] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[19:37:48] [nLogin - Task Executor #16/INFO] [nlogin]: The user Grady has successfully logged in.
+[19:37:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[19:37:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[19:38:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:37510) has disconnected
+[19:38:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[19:38:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35758]: Connected via websocket
+[19:38:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35758]: Origin header is https://astraclientorg.github.io
+[19:38:15] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:35758) has connected
+[19:38:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[19:38:17] [nLogin - Task Executor #16/INFO] [nlogin]: The user Grady has successfully logged in.
+[19:38:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[19:38:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[19:38:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:35758) has disconnected
+[19:38:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[19:38:32] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52360]: Connected via websocket
+[19:38:32] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52360]: Origin header is https://astraclientorg.github.io
+[19:38:33] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:52360) has connected
+[19:38:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[19:38:36] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:50968]: Connected via websocket
+[19:38:36] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:50968]: Origin header is https://astraclientorg.github.io
+[19:38:36] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:50968) has connected
+[19:38:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[19:38:39] [nLogin - Task Executor #16/INFO] [nlogin]: The user Grady has successfully logged in.
+[19:38:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[19:38:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[19:38:39] [nLogin - Task Executor #16/INFO] [nlogin]: The user Danny has successfully logged in.
+[19:38:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[19:38:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[19:38:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:50968) has disconnected
+[19:38:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[19:38:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:52360) has disconnected
+[19:38:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[19:38:55] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55082]: Connected via websocket
+[19:38:55] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55082]: Origin header is https://astraclientorg.github.io
+[19:38:55] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:55082) has connected
+[19:38:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[19:39:01] [nLogin - Task Executor #16/INFO] [nlogin]: The user Grady has successfully logged in.
+[19:39:02] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[19:39:02] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[19:39:11] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56896]: Connected via websocket
+[19:39:11] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56896]: Origin header is https://astraclientorg.github.io
+[19:39:12] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:56896) has connected
+[19:39:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[19:39:15] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46306]: Connected via websocket
+[19:39:15] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46306]: Origin header is https://astraclientorg.github.io
+[19:39:15] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:46306) has connected
+[19:39:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[19:39:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:55082) has disconnected
+[19:39:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[19:39:16] [nLogin - Task Executor #16/INFO] [nlogin]: The user Danny has successfully logged in.
+[19:39:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[19:39:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[19:39:20] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46322]: Connected via websocket
+[19:39:20] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46322]: Origin header is https://astraclientorg.github.io
+[19:39:20] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:46322) has connected
+[19:39:20] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[19:39:22] [nLogin - Task Executor #16/INFO] [nlogin]: The user DARREN has successfully logged in.
+[19:39:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[19:39:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[19:39:23] [nLogin - Task Executor #16/INFO] [nlogin]: The user Grady has successfully logged in.
+[19:39:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[19:39:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[19:41:23] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57360]: Connected via websocket
+[19:41:23] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57360]: Origin header is https://astraclientorg.github.io
+[19:41:23] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:57360) has connected
+[19:41:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[19:41:30] [nLogin - Task Executor #16/INFO] [nlogin]: The user Marko has successfully logged in.
+[19:41:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[19:41:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[19:44:21] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47684]: Connected via websocket
+[19:44:21] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47684]: Origin header is https://astraclientorg.github.io
+[19:44:21] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:47684) has connected
+[19:44:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has connected
+[19:44:23] [nLogin - Task Executor #34/INFO] [nlogin]: The user Idan has successfully logged in.
+[19:44:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has connected
+[19:44:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> lobby has disconnected
+[19:48:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60060]: Connected via websocket
+[19:48:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60060]: Origin header is https://astraclientorg.github.io
+[19:48:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jason (/[0:0:0:0:0:0:0:1%0]:60060) has connected
+[19:48:58] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> lobby has connected
+[19:49:02] [nLogin - Task Executor #34/INFO] [nlogin]: The user Jason has successfully logged in.
+[19:49:02] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> survival has connected
+[19:49:02] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> lobby has disconnected
+[19:58:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:46306) has disconnected
+[19:58:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[19:58:48] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48786]: Connected via websocket
+[19:58:48] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48786]: Origin header is https://astraclientorg.github.io
+[19:58:48] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:48786) has connected
+[19:58:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[19:58:51] [nLogin - Task Executor #34/INFO] [nlogin]: The user DARREN has successfully logged in.
+[19:58:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[19:58:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[19:59:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:48786) has disconnected
+[19:59:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[19:59:02] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59656]: Connected via websocket
+[19:59:02] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59656]: Origin header is https://astraclientorg.github.io
+[19:59:03] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:59656) has connected
+[19:59:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[19:59:06] [nLogin - Task Executor #34/INFO] [nlogin]: The user DARREN has successfully logged in.
+[19:59:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[19:59:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[20:00:47] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35550]: Connected via websocket
+[20:00:47] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35550]: Origin header is https://astraclientorg.github.io
+[20:00:48] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:35550) has connected
+[20:00:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has connected
+[20:00:53] [nLogin - Task Executor #34/INFO] [nlogin]: The user Kyle has successfully logged in.
+[20:00:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has connected
+[20:00:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has disconnected
+[20:05:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:46322) has disconnected
+[20:05:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[20:06:02] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53658]: Connected via websocket
+[20:06:02] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:53658]: Origin header is https://astraclientorg.github.io
+[20:06:02] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:53658) has connected
+[20:06:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has connected
+[20:06:06] [nLogin - Task Executor #34/INFO] [nlogin]: The user Grady has successfully logged in.
+[20:06:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has connected
+[20:06:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> lobby has disconnected
+[20:06:36] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:56896) has disconnected
+[20:06:36] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:06:41] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58052]: Connected via websocket
+[20:06:41] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58052]: Origin header is https://astraclientorg.github.io
+[20:06:41] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:58052) has connected
+[20:06:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:06:50] [nLogin - Task Executor #34/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:06:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:06:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:08:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:58052) has disconnected
+[20:08:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:08:44] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52248]: Connected via websocket
+[20:08:44] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52248]: Origin header is https://astraclientorg.github.io
+[20:08:45] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:52248) has connected
+[20:08:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:08:49] [nLogin - Task Executor #34/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:08:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:08:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:09:05] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:52248) has disconnected
+[20:09:05] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:09:09] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46020]: Connected via websocket
+[20:09:09] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46020]: Origin header is https://astraclientorg.github.io
+[20:09:09] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:46020) has connected
+[20:09:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:09:13] [nLogin - Task Executor #34/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:09:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:09:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:09:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:46020) has disconnected
+[20:09:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:09:33] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34206]: Connected via websocket
+[20:09:33] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34206]: Origin header is https://astraclientorg.github.io
+[20:09:34] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:34206) has connected
+[20:09:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:09:38] [nLogin - Task Executor #34/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:09:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:09:38] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:09:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:34206) has disconnected
+[20:09:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:09:59] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41340]: Connected via websocket
+[20:09:59] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41340]: Origin header is https://astraclientorg.github.io
+[20:09:59] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:41340) has connected
+[20:09:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:10:02] [nLogin - Task Executor #34/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:10:03] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:10:03] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:12:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Idan (/[0:0:0:0:0:0:0:1%0]:47684) has disconnected
+[20:12:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Idan -> survival has disconnected
+[20:12:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:35550) has disconnected
+[20:12:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has disconnected
+[20:14:26] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:59656) has disconnected
+[20:14:26] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[20:15:54] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35906]: Connected via websocket
+[20:15:54] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35906]: Origin header is https://astraclientorg.github.io
+[20:15:54] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:35906) has connected
+[20:15:54] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has connected
+[20:16:02] [nLogin - Task Executor #34/INFO] [nlogin]: The user Kyle has successfully logged in.
+[20:16:02] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has connected
+[20:16:02] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has disconnected
+[20:17:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jason (/[0:0:0:0:0:0:0:1%0]:60060) has disconnected
+[20:17:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> survival has disconnected
+[20:17:19] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:33302]: Connected via websocket
+[20:17:19] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:33302]: Origin header is https://astraclientorg.github.io
+[20:17:19] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jason (/[0:0:0:0:0:0:0:1%0]:33302) has connected
+[20:17:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> lobby has connected
+[20:17:23] [nLogin - Task Executor #34/INFO] [nlogin]: The user Jason has successfully logged in.
+[20:17:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> survival has connected
+[20:17:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> lobby has disconnected
+[20:24:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:57360) has disconnected
+[20:24:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:24:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:41340) has disconnected
+[20:24:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:24:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48666]: Connected via websocket
+[20:24:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:48666]: Origin header is https://astraclientorg.github.io
+[20:24:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:48666) has connected
+[20:24:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:24:33] [nLogin - Task Executor #44/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:24:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:24:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:24:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56154]: Connected via websocket
+[20:24:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56154]: Origin header is https://astraclientorg.github.io
+[20:24:52] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56154) has connected
+[20:24:52] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:25:00] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:25:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:25:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:25:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:48666) has disconnected
+[20:25:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:25:12] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46194]: Connected via websocket
+[20:25:12] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46194]: Origin header is https://astraclientorg.github.io
+[20:25:13] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:46194) has connected
+[20:25:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:25:17] [nLogin - Task Executor #44/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:25:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:25:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:25:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:46194) has disconnected
+[20:25:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:25:56] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58752]: Connected via websocket
+[20:25:56] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58752]: Origin header is https://astraclientorg.github.io
+[20:25:57] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:58752) has connected
+[20:25:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has connected
+[20:26:02] [nLogin - Task Executor #44/INFO] [nlogin]: The user Danny has successfully logged in.
+[20:26:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has connected
+[20:26:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> lobby has disconnected
+[20:26:11] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39776]: Connected via websocket
+[20:26:11] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:39776]: Origin header is https://astraclientorg.github.io
+[20:26:11] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:39776) has connected
+[20:26:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[20:26:23] [nLogin - Task Executor #44/INFO] [nlogin]: The user DARREN has successfully logged in.
+[20:26:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[20:26:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[20:26:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56154) has disconnected
+[20:26:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:26:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:39776) has disconnected
+[20:26:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[20:26:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Danny (/[0:0:0:0:0:0:0:1%0]:58752) has disconnected
+[20:26:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Danny -> survival has disconnected
+[20:27:14] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38030]: Connected via websocket
+[20:27:14] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38030]: Origin header is https://astraclientorg.github.io
+[20:27:14] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:38030) has connected
+[20:27:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[20:27:15] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38036]: Connected via websocket
+[20:27:15] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38036]: Origin header is https://astraclientorg.github.io
+[20:27:18] [nLogin - Task Executor #44/INFO] [nlogin]: The user DARREN has successfully logged in.
+[20:27:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[20:27:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[20:27:40] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37256]: Connected via websocket
+[20:27:40] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37256]: Origin header is https://astraclientorg.github.io
+[20:27:41] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:37256) has connected
+[20:27:41] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:27:50] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:27:51] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:27:51] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:28:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Grady (/[0:0:0:0:0:0:0:1%0]:53658) has disconnected
+[20:28:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Grady -> survival has disconnected
+[20:28:54] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51798]: Connected via websocket
+[20:28:54] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51798]: Origin header is https://astraclientorg.github.io
+[20:28:54] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:51798) has connected
+[20:28:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has connected
+[20:29:09] [nLogin - Task Executor #44/INFO] [nlogin]: The user Ryan_L has successfully logged in.
+[20:29:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has connected
+[20:29:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has disconnected
+[20:30:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:51798) has disconnected
+[20:30:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has disconnected
+[20:31:10] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41282]: Connected via websocket
+[20:31:10] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41282]: Origin header is https://astraclientorg.github.io
+[20:31:10] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:41282) has connected
+[20:31:10] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has connected
+[20:31:21] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57374]: Connected via websocket
+[20:31:21] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57374]: Origin header is https://astraclientorg.github.io
+[20:31:21] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:57374) has connected
+[20:31:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has connected
+[20:31:21] [nLogin - Task Executor #44/INFO] [nlogin]: The user Stephane has successfully logged in.
+[20:31:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has connected
+[20:31:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has disconnected
+[20:31:29] [nLogin - Task Executor #44/INFO] [nlogin]: The user Ryan_L has successfully logged in.
+[20:31:30] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has connected
+[20:31:30] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has disconnected
+[20:31:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:38030) has disconnected
+[20:31:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[20:31:39] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59276]: Connected via websocket
+[20:31:39] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:59276]: Origin header is https://astraclientorg.github.io
+[20:31:40] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:59276) has connected
+[20:31:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[20:31:46] [nLogin - Task Executor #44/INFO] [nlogin]: The user DARREN has successfully logged in.
+[20:31:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[20:31:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[20:39:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:59276) has disconnected
+[20:39:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[20:39:13] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46452]: Connected via websocket
+[20:39:13] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46452]: Origin header is https://astraclientorg.github.io
+[20:39:13] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:46452) has connected
+[20:39:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[20:39:17] [nLogin - Task Executor #44/INFO] [nlogin]: The user DARREN has successfully logged in.
+[20:39:17] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[20:39:17] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[20:41:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:37256) has disconnected
+[20:41:22] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:42:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37674]: Connected via websocket
+[20:42:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37674]: Origin header is https://astraclientorg.github.io
+[20:42:05] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:37674) has connected
+[20:42:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:42:11] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:42:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:42:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:42:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:37674) has disconnected
+[20:42:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:42:31] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60112]: Connected via websocket
+[20:42:31] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60112]: Origin header is https://astraclientorg.github.io
+[20:42:31] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:60112) has connected
+[20:42:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:42:54] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:60112) has disconnected: You entered the incorrect password.
+[20:42:54] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:42:57] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38452]: Connected via websocket
+[20:42:57] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38452]: Origin header is https://astraclientorg.github.io
+[20:42:58] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:38452) has connected
+[20:42:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:43:08] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:43:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:43:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:43:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:38452) has disconnected
+[20:43:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:43:55] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58208]: Connected via websocket
+[20:43:55] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:58208]: Origin header is https://astraclientorg.github.io
+[20:43:55] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:58208) has connected
+[20:43:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:44:11] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:44:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:44:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:44:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:58208) has disconnected
+[20:44:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:44:47] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:36390]: Connected via websocket
+[20:44:47] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:36390]: Origin header is https://astraclientorg.github.io
+[20:44:47] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:36390) has connected
+[20:44:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:45:09] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:45:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:45:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:45:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:36390) has disconnected
+[20:45:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:46:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:49222]: Connected via websocket
+[20:46:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:49222]: Origin header is https://astraclientorg.github.io
+[20:46:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:49222) has connected
+[20:46:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[20:46:39] [nLogin - Task Executor #44/INFO] [nlogin]: The user Jamal has successfully logged in.
+[20:46:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[20:46:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[20:51:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51802]: Connected via websocket
+[20:51:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51802]: Origin header is https://astraclientorg.github.io
+[20:51:58] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:51802) has connected
+[20:51:58] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:52:06] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:52:07] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:52:07] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:52:30] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:51802) has disconnected
+[20:52:30] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:52:47] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35406]: Connected via websocket
+[20:52:47] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:35406]: Origin header is https://astraclientorg.github.io
+[20:52:47] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:35406) has connected
+[20:52:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:52:58] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:52:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:52:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:53:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:35406) has disconnected
+[20:53:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:53:16] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57464]: Connected via websocket
+[20:53:16] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57464]: Origin header is https://astraclientorg.github.io
+[20:53:16] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:57464) has connected
+[20:53:16] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:53:23] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:53:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:53:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:53:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:57464) has disconnected
+[20:53:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:53:39] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46368]: Connected via websocket
+[20:53:39] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46368]: Origin header is https://astraclientorg.github.io
+[20:53:39] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:46368) has connected
+[20:53:39] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:53:44] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:53:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:53:44] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:54:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:46368) has disconnected
+[20:54:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:54:03] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47182]: Connected via websocket
+[20:54:03] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:47182]: Origin header is https://astraclientorg.github.io
+[20:54:03] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:47182) has connected
+[20:54:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:54:08] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:54:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:54:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:54:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:47182) has disconnected
+[20:54:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:54:25] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45346]: Connected via websocket
+[20:54:25] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45346]: Origin header is https://astraclientorg.github.io
+[20:54:26] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:45346) has connected
+[20:54:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:54:32] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:54:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:54:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:54:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:45346) has disconnected
+[20:54:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:54:50] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51122]: Connected via websocket
+[20:54:50] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:51122]: Origin header is https://astraclientorg.github.io
+[20:54:50] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:51122) has connected
+[20:54:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:55:02] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:55:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:55:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:55:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:35906) has disconnected
+[20:55:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has disconnected
+[20:55:16] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:51122) has disconnected
+[20:55:16] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:55:19] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56048]: Connected via websocket
+[20:55:19] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56048]: Origin header is https://astraclientorg.github.io
+[20:55:19] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56048) has connected
+[20:55:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:55:24] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:55:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:55:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:55:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jason (/[0:0:0:0:0:0:0:1%0]:33302) has disconnected
+[20:55:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> survival has disconnected
+[20:55:35] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37396]: Connected via websocket
+[20:55:35] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37396]: Origin header is https://astraclientorg.github.io
+[20:55:35] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jason (/[0:0:0:0:0:0:0:1%0]:37396) has connected
+[20:55:35] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> lobby has connected
+[20:55:39] [nLogin - Task Executor #44/INFO] [nlogin]: The user Jason has successfully logged in.
+[20:55:39] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:56048) has disconnected
+[20:55:39] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:55:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> survival has connected
+[20:55:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> lobby has disconnected
+[20:56:03] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:49800]: Connected via websocket
+[20:56:03] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:49800]: Origin header is https://astraclientorg.github.io
+[20:56:03] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:49800) has connected
+[20:56:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:56:08] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:56:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:56:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:56:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:49800) has disconnected
+[20:56:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:56:40] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55910]: Connected via websocket
+[20:56:40] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55910]: Origin header is https://astraclientorg.github.io
+[20:56:40] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:55910) has connected
+[20:56:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:56:46] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:56:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:56:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:57:00] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:55910) has disconnected
+[20:57:00] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:57:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jason (/[0:0:0:0:0:0:0:1%0]:37396) has disconnected
+[20:57:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jason -> survival has disconnected
+[20:57:17] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34170]: Connected via websocket
+[20:57:17] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:34170]: Origin header is https://astraclientorg.github.io
+[20:57:17] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:34170) has connected
+[20:57:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:57:26] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:57:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:57:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:57:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:34170) has disconnected
+[20:57:45] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[20:58:03] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@28f5ea52
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[20:58:03] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@36ab47c3
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[20:58:03] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@31199591
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[20:58:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has disconnected
+[20:58:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has disconnected
+[20:58:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[20:58:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[20:58:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has connected
+[20:58:03] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@7bb2546d
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[20:58:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[20:58:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has connected
+[20:58:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[20:58:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:41282) has disconnected
+[20:58:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has disconnected
+[20:58:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:57374) has disconnected
+[20:58:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has disconnected
+[20:58:21] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:42074]: Connected via websocket
+[20:58:21] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:42074]: Origin header is https://astraclientorg.github.io
+[20:58:21] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:42074) has connected
+[20:58:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has connected
+[20:58:26] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57742]: Connected via websocket
+[20:58:26] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57742]: Origin header is https://astraclientorg.github.io
+[20:58:26] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:57742) has connected
+[20:58:26] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has connected
+[20:58:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:49222) has disconnected
+[20:58:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[20:58:32] [nLogin - Task Executor #44/INFO] [nlogin]: The user Stephane has successfully logged in.
+[20:58:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57778]: Connected via websocket
+[20:58:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57778]: Origin header is https://astraclientorg.github.io
+[20:58:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has connected
+[20:58:32] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:57778) has connected
+[20:58:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[20:58:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has disconnected
+[20:58:40] [nLogin - Task Executor #44/INFO] [nlogin]: The user Jamal has successfully logged in.
+[20:58:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[20:58:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[20:58:46] [nLogin - Task Executor #44/INFO] [nlogin]: The user Ryan_L has successfully logged in.
+[20:58:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has connected
+[20:58:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has disconnected
+[20:58:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:57778): kicked from server survival: You are sending too many packets!
+[20:58:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[20:58:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[20:59:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:46452) has disconnected
+[20:59:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[20:59:13] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45690]: Connected via websocket
+[20:59:13] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:45690]: Origin header is https://astraclientorg.github.io
+[20:59:13] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:45690) has connected
+[20:59:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[20:59:17] [nLogin - Task Executor #44/INFO] [nlogin]: The user DARREN has successfully logged in.
+[20:59:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[20:59:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[20:59:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60206]: Connected via websocket
+[20:59:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60206]: Origin header is https://astraclientorg.github.io
+[20:59:29] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:60206) has connected
+[20:59:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has connected
+[20:59:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:57778) has disconnected
+[20:59:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[20:59:34] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60232]: Connected via websocket
+[20:59:34] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60232]: Origin header is https://astraclientorg.github.io
+[20:59:34] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:60232) has connected
+[20:59:34] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[20:59:37] [nLogin - Task Executor #44/INFO] [nlogin]: The user Marko has successfully logged in.
+[20:59:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has connected
+[20:59:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> lobby has disconnected
+[20:59:39] [nLogin - Task Executor #44/INFO] [nlogin]: The user Jamal has successfully logged in.
+[20:59:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[20:59:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[21:00:00] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:60232) has disconnected
+[21:00:00] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[21:00:46] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37862]: Connected via websocket
+[21:00:46] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:37862]: Origin header is https://astraclientorg.github.io
+[21:00:46] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:37862) has connected
+[21:00:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[21:00:51] [nLogin - Task Executor #44/INFO] [nlogin]: The user Jamal has successfully logged in.
+[21:00:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[21:00:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[21:01:11] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43208]: Connected via websocket
+[21:01:11] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43208]: Origin header is https://astraclientorg.github.io
+[21:01:11] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:43208) has connected
+[21:01:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has connected
+[21:01:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:43208) has disconnected: You entered the incorrect password.
+[21:01:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has disconnected
+[21:01:18] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52778]: Connected via websocket
+[21:01:18] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:52778]: Origin header is https://astraclientorg.github.io
+[21:01:18] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:52778) has connected
+[21:01:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has connected
+[21:01:29] [nLogin - Task Executor #44/INFO] [nlogin]: The user Kyle has successfully logged in.
+[21:01:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has connected
+[21:01:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has disconnected
+[21:01:30] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Marko (/[0:0:0:0:0:0:0:1%0]:60206) has disconnected
+[21:01:30] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Marko -> survival has disconnected
+[21:03:17] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@6f254e0a
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:03:17] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@439d97f3
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:03:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has disconnected
+[21:03:17] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@eb15b08
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:03:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[21:03:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[21:03:17] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@43edeaf2
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:03:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has disconnected
+[21:03:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has connected
+[21:03:17] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@11e9d2a9
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[21:03:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has connected
+[21:03:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has disconnected
+[21:03:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[21:03:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[21:03:17] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has connected
+[21:03:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:45690) has disconnected
+[21:03:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[21:03:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:37862) has disconnected
+[21:03:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[21:03:21] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60116]: Connected via websocket
+[21:03:21] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60116]: Origin header is https://astraclientorg.github.io
+[21:03:21] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:60116) has connected
+[21:03:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has connected
+[21:03:22] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60138]: Connected via websocket
+[21:03:22] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:60138]: Origin header is https://astraclientorg.github.io
+[21:03:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:52778) has disconnected
+[21:03:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has disconnected
+[21:03:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:42074) has disconnected
+[21:03:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has disconnected
+[21:03:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:57742) has disconnected
+[21:03:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has disconnected
+[21:03:26] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56536]: Connected via websocket
+[21:03:26] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56536]: Origin header is https://astraclientorg.github.io
+[21:03:26] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:56536) has connected
+[21:03:26] [nLogin - Task Executor #44/INFO] [nlogin]: The user DARREN has successfully logged in.
+[21:03:26] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[21:03:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has connected
+[21:03:26] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56538]: Connected via websocket
+[21:03:26] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56538]: Origin header is https://astraclientorg.github.io
+[21:03:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> lobby has disconnected
+[21:03:29] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56548]: Connected via websocket
+[21:03:29] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56548]: Origin header is https://astraclientorg.github.io
+[21:03:30] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:56548) has connected
+[21:03:30] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has connected
+[21:03:31] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56560]: Connected via websocket
+[21:03:31] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:56560]: Origin header is https://astraclientorg.github.io
+[21:03:31] [nLogin - Task Executor #44/INFO] [nlogin]: The user Jamal has successfully logged in.
+[21:03:31] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[21:03:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[21:03:36] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46538]: Connected via websocket
+[21:03:36] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:46538]: Origin header is https://astraclientorg.github.io
+[21:03:36] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:46538) has connected
+[21:03:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has connected
+[21:03:39] [nLogin - Task Executor #44/INFO] [nlogin]: The user Stephane has successfully logged in.
+[21:03:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has connected
+[21:03:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> lobby has disconnected
+[21:03:42] [nLogin - Task Executor #44/INFO] [nlogin]: The user Kyle has successfully logged in.
+[21:03:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has connected
+[21:03:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> lobby has disconnected
+[21:04:30] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Kyle (/[0:0:0:0:0:0:0:1%0]:46538) has disconnected
+[21:04:30] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kyle -> survival has disconnected
+[21:05:30] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41036]: Connected via websocket
+[21:05:30] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:41036]: Origin header is https://astraclientorg.github.io
+[21:05:30] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:41036) has connected
+[21:05:30] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has connected
+[21:05:40] [nLogin - Task Executor #44/INFO] [nlogin]: The user Ryan_L has successfully logged in.
+[21:05:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has connected
+[21:05:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> lobby has disconnected
+[21:06:10] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:56536): kicked from server survival: You are banned from this server.
+[21:06:10] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[21:06:10] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[21:06:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:56536) has disconnected
+[21:06:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[21:06:51] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38694]: Connected via websocket
+[21:06:51] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:38694]: Origin header is https://astraclientorg.github.io
+[21:06:51] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38694) has connected
+[21:06:51] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has connected
+[21:06:59] [nLogin - Task Executor #58/INFO] [nlogin]: The user Jamal has successfully logged in.
+[21:06:59] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[21:06:59] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[21:06:59] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38694): disconnected while connecting to survival: You are banned from this server!
+Reason: Banned by an operator.
+[21:07:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[21:07:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[21:07:04] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38694): disconnected while connecting to survival: You are banned from this server!
+Reason: Banned by an operator.
+[21:07:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] DARREN (/[0:0:0:0:0:0:0:1%0]:60116) has disconnected
+[21:07:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] DARREN -> survival has disconnected
+[21:07:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[21:07:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[21:07:09] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38694): disconnected while connecting to survival: You are banned from this server!
+Reason: Banned by an operator.
+[21:07:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Stephane (/[0:0:0:0:0:0:0:1%0]:56548) has disconnected
+[21:07:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Stephane -> survival has disconnected
+[21:07:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has connected
+[21:07:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> survival has disconnected
+[21:07:14] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38694): disconnected while connecting to survival: You are banned from this server!
+Reason: Banned by an operator.
+[21:07:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Jamal (/[0:0:0:0:0:0:0:1%0]:38694) has disconnected
+[21:07:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Jamal -> lobby has disconnected
+[21:07:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Ryan_L (/[0:0:0:0:0:0:0:1%0]:41036) has disconnected
+[21:07:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Ryan_L -> survival has disconnected
