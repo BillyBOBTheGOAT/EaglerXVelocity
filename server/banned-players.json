@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "uuid": "568a023c-8d6b-39bd-9304-e90c0aa1b876",
+    "name": "Marko",
+    "created": "2025-05-14 18:41:21 +0000",
+    "source": "DARREN",
+    "expires": "forever",
+    "reason": "Banned from cursing."
+  },
+  {
+    "uuid": "ee0d2f7b-042c-3d52-b426-e43e4af56561",
+    "name": "Kyle",
+    "created": "2025-05-12 18:10:55 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
