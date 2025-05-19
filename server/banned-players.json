@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "ee0d2f7b-042c-3d52-b426-e43e4af56561",
+    "name": "Kyle",
+    "created": "2025-05-12 18:10:55 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

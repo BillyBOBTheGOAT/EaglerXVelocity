@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "783c3da6-0f59-3db7-84d1-abca81b138b9",
+    "name": "DARREN",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "eec0ad9e-5122-369d-89d8-2f13abe29ec1",
+    "name": "LMMS_ADMIN",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

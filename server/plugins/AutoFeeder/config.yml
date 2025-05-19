@@ -1,0 +1,12 @@
+################################
+#                              #
+#        AutoFeeder by         #
+#           Stipess1           #
+#                              #
+################################
+
+AF_ENABLED: "&aYou have enabled AutoFeeder!"
+AF_DISABLED: "&4You have disabled AutoFeeder!"
+AF_CONFIGRLD: "&aConfig successfully reloaded."
+AF_UNKNOWNCMD: "&cError: &4Unknown Command."
+AF_NOPERMISSION: "&cError: &4You don't have permission to use this command!"
